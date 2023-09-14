@@ -1,0 +1,25 @@
+.star-icon::after,
+.star-icon::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 80px;
+}
+
+.star-icon.black::after,
+.star-icon.black::before {
+  background-color: black;
+}
+
+.star-icon.white::after,
+.star-icon.white::before {
+  background-color: white;
+}
+
+.star-icon::after {
+  margin-left: 10px;
+}
+
+.star-icon::before {
+  margin-right: 10px;
+}

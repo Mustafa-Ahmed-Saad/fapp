@@ -1,0 +1,26 @@
+#contact .form-control:focus {
+  box-shadow: none;
+}
+
+#contact label {
+  transition: 0.6s !important;
+}
+
+#contact label.top-70px {
+  top: 50px;
+}
+
+#contact label.top-70px {
+  top: 50px;
+}
+
+#contact .btn-primary {
+  --bs-btn-bg: #1abc9c;
+  --bs-btn-border-color: #1abc9c;
+  --bs-btn-hover-bg: #1abc9c;
+  --bs-btn-hover-border-color: #1abc9c;
+  --bs-btn-disabled-border-color: #1abc9c;
+  --bs-btn-disabled-bg: #1abc9c;
+  --bs-btn-active-border-color: #1abc9c;
+  --bs-btn-active-bg: #1abc9c;
+}

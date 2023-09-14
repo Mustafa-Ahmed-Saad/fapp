@@ -1,0 +1,8 @@
+#Portfolio .layout {
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+#Portfolio .layout:hover {
+  opacity: 1 !important;
+}
