@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./components/pages/about/AboutPage";
 import PortfolioPage from "./components/pages/portfolio/PortfolioPage";
 import ContactPage from "./components/pages/contact/ContactPage";
@@ -8,7 +8,7 @@ import MainLayout from "./components/mainLayout/MainLayout";
 import HomePage from "./components/pages/home/HomePage";
 import Error404Page from "./components/pages/Error404/Error404Page";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
