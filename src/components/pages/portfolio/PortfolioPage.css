@@ -6,3 +6,8 @@
 #Portfolio .layout:hover {
   opacity: 1 !important;
 }
+
+.layerImg {
+  transform: translate(0%, -50%);
+  top: 50%;
+}

@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        class="navbar bg-dark border-bottom border-body navbar-expand-lg position-fixed w-100"
+        className="navbar bg-dark border-bottom border-body navbar-expand-lg position-fixed w-100 z-2"
         data-bs-theme="dark"
       >
         <div className="container">

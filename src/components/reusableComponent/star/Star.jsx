@@ -10,7 +10,7 @@ export default function Star(props) {
 
   return (
     <div className={`my-3 star-icon ${color}`}>
-      <i class="fa-solid fa-star"></i>
+      <i className="fa-solid fa-star"></i>
     </div>
   );
 }

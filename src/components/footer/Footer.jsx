@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="col-12 col-lg-4 text-center">
               <h3>AROUND THE WEB</h3>
               <div className="text-center icons">
-                <i class="fa-brands fa-facebook rounded-circle p-2 mx-1"></i>
-                <i class="fa-brands fa-twitter rounded-circle p-2 mx-1"></i>
-                <i class="fa-brands fa-linkedin-in rounded-circle p-2 mx-1"></i>
-                <i class="fa-solid fa-globe rounded-circle p-2 mx-1"></i>
+                <i className="fa-brands fa-facebook rounded-circle p-2 mx-1"></i>
+                <i className="fa-brands fa-twitter rounded-circle p-2 mx-1"></i>
+                <i className="fa-brands fa-linkedin-in rounded-circle p-2 mx-1"></i>
+                <i className="fa-solid fa-globe rounded-circle p-2 mx-1"></i>
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center">
